@@ -32,6 +32,7 @@
 //! See [this module's documentation][asm] for information about the expected
 //! behaviour of individual operations.
 #![deny(missing_docs, unsafe_code)]
+#![feature(lazy_cell)]
 
 pub use access::{
     mut_keys, mut_keys_set, mut_keys_slices, transient_data, Access, SolutionAccess,
